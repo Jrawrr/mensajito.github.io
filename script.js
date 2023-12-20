@@ -5,7 +5,7 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yaaaay, quedamos este viernes 22! (detallitos luego)";
+  question.innerHTML = "Yaaaay, ya quedamos (detallitos luego)";
   gif.src ="https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
   noBtn.style.display = "none";
   const remainingBtn = document.querySelector('.btn-group button:not(.no-btn)');
